@@ -5,7 +5,7 @@ document.getElementById("login").addEventListener("click", function() {
   const password = passwordField.value;
 
   if (email === "login@gmail.com" && password === "admin") {
-    window.location.href = "http://127.0.0.1:5500/Bank/Bank.html";
+    window.location.href = "https://sadman0123.github.io/bankjs/";
   } else {
     alert("Login Failed");
   }
